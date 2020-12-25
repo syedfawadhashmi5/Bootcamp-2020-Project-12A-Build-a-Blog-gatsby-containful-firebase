@@ -1,0 +1,118 @@
+.navBar{
+
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;    
+}
+.otherHeadigs{
+  font-size: 1.2rem;
+  color: #afc4da;
+}
+
+.navBarHomeHeading{
+  font-size: 2vmax;
+  font-weight: bold;
+  color: rgb(0 0 0);
+  padding-right: 5vmax;
+
+}
+.navBarHomeHeading:hover{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.otherHeadigs:hover{
+  text-decoration: none;
+  text-shadow: 1px 3px 0px #070708;
+  color: #737373cf;
+}
+
+.otherlink {
+  text-decoration: none;
+  text-shadow: 1px 3px 0px #070708;
+  color: #afc4da;
+}
+
+.otherHeadingsActive{
+  text-decoration: none;
+  text-shadow: 1px 3px 0px #0c4cfb;;
+  color: white;
+
+}
+
+.toggle{
+  
+  background-color: #0c4cfb;
+}
+
+
+
+
+
+
+.navBarHeadingsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+
+.ButtonsInnerContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 0.3;
+  
+  
+}
+.signinButton{
+  
+  font-size: 1rem;
+  flex-grow: 0.1;
+  padding: 0.2rem;
+ 
+}
+
+.verificationMsg{
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 2vh;
+  padding-left: 2vmax;
+}
+
+.verificationLink{
+
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.profileButton{
+  font-size: 1rem;
+  flex-grow: 0.1;
+  padding: 0.2rem;
+  
+
+}
+.profileButtonToggle{
+  width: 100%;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .ButtonsInnerContainer{
+    flex-direction: column;
+    
+  }
+
+}
